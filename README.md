@@ -54,8 +54,7 @@ Sistem ini mampu mengklasifikasikan performa mahasiswa ke dalam 4 kategori: **Po
 fuzzy-mamdani-student-performance/
 ├── app.py                          # Aplikasi Streamlit utama
 ├── StudentPerformanceFactors.csv   # Dataset (6607 data, 20 kolom)
-├── TuBesfuzzyBforBerkah.ipynb                  # Notebook colab
-├── app.py                 
+├── TuBesfuzzyBforBerkah.ipynb                  # Notebook colab               
 ├── requirements.txt   
 └── README.md
 ```
