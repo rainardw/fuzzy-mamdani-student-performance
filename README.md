@@ -54,7 +54,9 @@ Sistem ini mampu mengklasifikasikan performa mahasiswa ke dalam 4 kategori: **Po
 fuzzy-mamdani-student-performance/
 ├── app.py                          # Aplikasi Streamlit utama
 ├── StudentPerformanceFactors.csv   # Dataset (6607 data, 20 kolom)
-├── notebook.ipynb                  # Notebook eksplorasi & pengembangan
+├── TuBesfuzzyBforBerkah.ipynb                  # Notebook colab
+├── app.py                 
+├── requirements.txt   
 └── README.md
 ```
 
@@ -132,9 +134,11 @@ Dataset yang digunakan: **Student Performance Factors** (Kaggle)
 
 | Nama | NIM |
 |---|---|
-| [Nama 1] | [NIM 1] |
-| [Nama 2] | [NIM 2] |
-| [Nama 3] | [NIM 3] |
+| [Kurnia Dwi Surya] | [F1D02310013] |
+| [Wicaksono Hadidulmanan] | [F1D02310095] |
+| [Karina Septia Suwandi] | [F1D02310066] |
+| [Zamzami Satria Tegar] | [F1D02310029] |
+
 
 > Proyek ini dibuat sebagai bagian dari **Tugas Besar Logika Fuzzy**
 
