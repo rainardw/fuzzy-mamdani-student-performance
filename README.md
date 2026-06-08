@@ -141,6 +141,8 @@ Dataset yang digunakan: **Student Performance Factors** (Kaggle)
 
 > Proyek ini dibuat sebagai bagian dari **Tugas Besar Logika Fuzzy**
 
+## Link Streamlit
+https://rainardw-fuzzy-mamdani-student-performance.streamlit.app/
 ---
 
 ## 📄 Lisensi
