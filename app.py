@@ -9,11 +9,14 @@ st.title("🎓 Sistem Prediksi Performa Mahasiswa")
 st.markdown("Menggunakan Metode **Fuzzy Inference System (FIS) Mamdani** dengan 3 Variabel Input dan 27 Rule.")
 
 def triangular(x, a, b, c):
-    if x <= a or x >= c: return 0
-    elif a < x <= b:
-        return 1.0 if b == a else (x-a)/(b-a)
+    if x == b:
+        return 1.0
+    if x <= a or x >= c:
+        return 0.0
+    elif a < x < b:
+        return (x - a) / (b - a) if (b - a) != 0 else 0.0
     else:
-        return 1.0 if c == b else (c-x)/(c-b)
+        return (c - x) / (c - b) if (c - b) != 0 else 0.0
 
 membership_params = {
     'hours': {'low': (0, 0, 20), 'medium': (10, 20, 30), 'high': (20, 40, 40)},
